@@ -1,0 +1,71 @@
+body{
+	margin: 0;
+	text-align: center;
+}
+
+.main{
+	width: 626px;
+	margin: 64px auto 64px;
+}
+
+.main img {
+	margin-bottom: 32px;
+}
+
+.main h1 {
+	font-size: 32px;
+	line-height: 40px;
+	font-family: 'Dosis', sans-serif;
+	color: #3F3D56;
+
+	font-weight: 500;
+}
+
+.main h1 span {
+	color: #EE24FF;
+	font-weight: bold;
+}
+
+p {
+	color: #828282;
+	width: 540px;
+	margin: 0 auto;
+}
+
+.main p, a{
+	font-size: 15px;
+	line-height: 22px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.main p strong, .footer a{
+	color: #3F3D56;
+	font-weight: bold;
+}
+
+.footer {
+	margin-bottom: 40px;
+}
+
+.line {
+	width: 391px;
+	height: 0px;
+	border: 1px solid #ECEFF2;
+
+	margin: 0 auto 16px;
+}
+
+.footer a {
+	text-decoration: none;
+}
+
+.footer a + a {
+	margin-left: 42px;
+}
+
+#wave {
+  width: 100vw; /* az com que sua imagem ocupe toda a largura da sua página, para que caso o usuário esteja vendo em uma tela grande, ainda fique boa a visualização*/
+
+  position: absolute;
+  left: 0; /*Faz com que sua imagem encoste na borda esquerda */
+}
